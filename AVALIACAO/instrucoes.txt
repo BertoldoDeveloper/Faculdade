@@ -1,0 +1,19 @@
+FLUXO DO PROGRAMA
+
+ENTRADA DE DADOS:
+
+O programa deve pedir para o usuário inserir o peso e a altura.
+Você pode usar o comando input() para pegar esses valores, e lembre-se de converter 
+para float (já que peso e altura podem ter casas decimais).
+
+
+CALCULO:
+
+Aqui você aplicaria a fórmula do IMC, mas como não quer a fórmula, pense que você 
+precisa fazer uma operação de divisão.
+
+
+CLASSIFICACAO DO IMC:
+
+Após o cálculo, o programa deve verificar em qual faixa o IMC do usuário se encontra 
+e exibir uma mensagem correspondente.
