@@ -1,0 +1,10 @@
+#####  Etapas do portifolio
+
+####  Etapas do Diagrama de Blocos:
+
+# Início: O processo começa.
+# Entrada dos valores: Solicita a entrada de dois valores do usuário (por exemplo, valor1 e valor2).
+# Soma dos valores: Calcula a soma dos dois valores inseridos.
+# Cálculo da média: Divide a soma por 2 para calcular a média.
+# Exibição do resultado: Mostra a média calculada ao usuário.
+# Fim: O processo termina.

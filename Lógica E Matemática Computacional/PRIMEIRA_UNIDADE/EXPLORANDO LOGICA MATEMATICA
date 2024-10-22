@@ -1,0 +1,115 @@
+# **Explorando a Lógica Matemática**
+
+A Lógica e Matemática Computacional é uma disciplina fundamental no campo da Ciência da Computação e da Matemática, 
+que lida com a aplicação de princípios lógicos e matemáticos na resolução de problemas computacionais, no desenvolvimento
+ de algoritmos eficientes, na modelagem de sistemas e no aprimoramento da capacidade de raciocínio lógico.
+
+A disciplina fornece as ferramentas necessárias para resolver problemas complexos, desenvolver sistemas de software avançados
+ e avançar a pesquisa em uma variedade de campos. À medida que a tecnologia continua a evoluir, a compreensão desses princípios
+  é fundamental para profissionais e pesquisadores que desejam ter um impacto significativo no mundo da ciência da computação e 
+  da tecnologia.
+
+Para uma compreensão mais profunda da lógica, é crucial conhecer as definições de alguns termos fundamentais amplamente utilizados.
+
+Mundim (2002) destaca os seguintes termos:
+
+- Proposição: refere-se a um enunciado, uma frase declarativa que pode ser considerada verdadeira ou falsa.
+- Premissas: são proposições utilizadas como base para um raciocínio. São as proposições nas quais um silogismo se baseia.
+- Argumento: é um conjunto de enunciados que se relacionam uns com os outros de forma lógica.
+- Conectivos lógicos: utilizados para combinar proposições e criar proposições compostas mais complexas.
+- Falácia: consiste em argumentos que logicamente estão incorretos.
+- Silogismo: consiste em um raciocínio dedutivo (premissas) e possibilita a dedução de uma conclusão a partir das premissas.
+
+# **Proposição**
+
+Segundo Bispo Filho, Castanheira e Souza Filho (2017) proposição é a unidade fundamental da lógica. Ela é uma afirmação que pode 
+ser classificada como verdadeira ou falsa. Proposições podem ser simples (uma única afirmação) ou compostas (combinação de várias
+ proposições simples).
+
+### **Exemplos de proposições simples**
+
+- “O Sol é uma estrela.”
+- “2 é um número par.”
+- “O céu é azul” (verdadeira).
+- 
+
+### **Exemplos de proposições compostas**:
+
+- “Se chover, então o solo ficará úmido.”
+- “João e Maria estão estudando para a prova, ou eles estão assistindo TV.”
+
+# **Premissas**
+
+Fajardo (2017) define premissas como proposições que servem como a base de um argumento lógico. Elas são assumidas como verdadeiras 
+para construir um argumento. Premissas são essenciais para sustentar a validade de uma conclusão.
+
+### **Exemplo**:
+
+Para o argumento “Todos os homens são mortais. Sócrates é um homem. Portanto, Sócrates é mortal,” as duas primeiras proposições são
+ as premissas.
+
+Silogismo
+
+Um silogismo é um tipo de argumento lógico que consiste em duas premissas e uma conclusão. As premissas são declarações que são 
+supostamente verdadeiras, e a conclusão é uma inferência que se segue logicamente das premissas. Aqui está um exemplo de um silogismo:
+
+- Todas as pessoas são mortais (premissa maior).
+- Sócrates é uma pessoa (premissa menor).
+- Portanto, Sócrates é mortal (conclusão).
+
+Em resumo, silogismo nada mais é do que um argumento constituído de proposições das quais se infere (extrai) uma conclusão. 
+Assim, não se trata de conferir valor de verdade ou falsidade às proposições (frases ou premissas dadas) nem à conclusão, 
+mas apenas de observar a forma como foi constituído. É um raciocínio mediado que fornece o conhecimento de uma coisa a partir 
+de outras coisas (buscando, pois, sua causa).
+
+# **Argumento**
+
+Fajardo (2017) define um argumento como um conjunto de proposições que inclui premissas e uma conclusão. 
+O objetivo de um argumento é provar que a conclusão é verdadeira com base nas premissas.
+
+### **Exemplo**:
+
+Argumento: “Se chover, a estrada ficará molhada. Está chovendo. Portanto, a estrada está molhada.”
+
+As duas primeiras proposições são premissas, e a última é a conclusão.
+
+A estrutura de um argumento matemático é semelhante a de um silogismo na lógica, embora possa ser mais complexa. Um argumento 
+matemático geralmente segue as seguintes etapas:
+
+- Premissas: são as declarações iniciais ou suposições a partir das quais o argumento começa. Essas premissas podem ser axiomas,
+ definições ou afirmações dadas.
+- Raciocínio: utiliza regras lógicas e propriedades matemáticas para derivar conclusões a partir das premissas. Isso envolve a 
+aplicação de teoremas, leis matemáticas ou argumentos lógicos.
+- Conclusão: a conclusão é a afirmação final que é derivada das premissas por meio do raciocínio lógico. Deve ser uma dedução 
+lógica das premissas.
+
+# **Conectivos lógicos**
+
+Segundo Alencar Filho (2002), conectivos lógicos são usados para combinar proposições e criar proposições compostas mais complexas.
+ Os principais conectivos (operações lógicas fundamentais).
+
+# **Inferência**
+
+Inferência é o processo que permite chegar a conclusões a partir de premissas, constituindo a argumentação lógica perfeita. 
+A inferência, como veremos a seguir, pode ser de dois tipos: indutiva e dedutiva. Uma inferência inválida é chamada falácia. 
+A seguir, mostraremos alguns exemplos de inferências da lógica formal com argumento válido e conclusão lógica. Veja que, a partir 
+de duas frases, que são as premissas, chegamos a uma conclusão.
+
+1. Todos os homens são mortais.Elias é homem.Logo, Elias é mortal.
+2. Toda novela conta histórias sobre o dia a dia das pessoas.Roque Santeiro é uma novela.Logo, Roque Santeiro conta histórias sobre 
+a vida das pessoas.
+
+A inferência dedutiva é aquela que parte de premissas afirmativas ou leis mais gerais permitindo a obtenção de verdades menos gerais 
+ou particulares.
+
+Exemplos de lógica dedutiva:
+
+1. 1. Todos os brasileiros gostam de praia. Antônio é brasileiro. Portanto, Antônio gosta de praia.
+2. Todo os jogadores de futebol treinam em academias. Paulo é um jogador de futebol. Então, Paulo treina em uma academia.
+
+Já lógica indutiva se preocupa com argumentos que permitem conclusões gerais a partir de casos particulares.
+
+# **Exemplo de lógica indutiva**:
+
+Uma maçã solta no ar cai em direção ao solo. Uma caneta solta no ar cai em direção ao solo. Um livro solto no ar cai em direção ao solo. 
+Todos os objetos soltos no ar caem em direção ao solo.

@@ -1,0 +1,96 @@
+# **Arranjos simples**
+
+Arranjos matemáticos são uma categoria de conceitos na matemática que envolvem a organização e seleção
+ de elementos de um conjunto, levando em consideração a ordem e, às vezes, as outras condições específicas.
+  Os arranjos são frequentemente usados em problemas de contagem, probabilidade, combinatorial e estatísticas.
+
+Arranjos são agrupamentos formados com p elementos de um conjunto de n elementos. Arranjos são trocas
+ de posição entre os elementos. Mas no caso dos arranjos, são escolhidos p elementos para ocupar as
+  posições ordenadas.
+
+De acordo com Iezzi *et al.* (2004), dado um conjunto com n elementos distintos, chama-se arranjo dos
+ n elementos, tomados p a p, a qualquer sequência ordenada de p elementos distintos escolhidos entre 
+ os n existentes.
+
+Para ilustrar esse conceito, considere o conjunto A= {1,2,3,4}. Vamos determinar o número de arranjos 
+desses quatro elementos (n= 4) tomados dois a dois (p=2). Utilizando a fórmula para 
+determinação do número de arranjos, temos que:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/517823c3-73ab-41fc-af0b-fcabe0cdfed1/image.png)
+
+De fato, discriminando todos os arranjos chegamos a 12 possibilidades:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/128fe84f-e9fc-449c-80ec-a6275010c096/image.png)
+
+Note que (2,3) é diferente de (3,2), isto é, ao trocarmos a ordem dos elementos, obtemos um novo agrupamento. 
+Como a ordem dos elementos é relevante, podemos afirmar que os arranjos são um tipo de lista.
+
+Considere, por exemplo, o problema de se determinar de quantas maneiras seis pessoas A, B, C, D, E e F podem ser 
+dispostas em uma fila indiana. Cada maneira de compor a fila é uma permutação das seis pessoas, pois qualquer fila 
+obtida é uma sequência ordenada na qual comparecem sempre as seis pessoas. Ao utilizarmos a fórmula do número 
+de arranjos, percebemos que neste caso n = p.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/560c101b-22a4-4463-bef4-df5342b1cc97/image.png)
+
+Ou seja, existem 720 maneiras distintas para organização dessa fila.
+
+Para acessar um site, cada usuário cria uma senha com quatro algarismos, todos distintos entre si. Então, o número de
+ senhas possíveis que esse site admite é igual a?
+
+Sabemos que existem dez algarismos possíveis (0,1,2,3,4,5,6,7,8,9). Então, calcularemos o arranjo simples de dez 
+algarismos tomados de quatro em quatro. Para calcular a quantidade de arranjos, temos que n = 10 e k = 4, então, 
+basta substituir na fórmula.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/416a5d3c-80d1-444d-9881-c3883be13ec0/image.png)
+
+# **Arranjos com repetição**
+
+- O arranjo com repetição é um tipo de agrupamento da análise combinatória.
+- O arranjo com repetição são os agrupamentos ordenados com p elementos entre n elementos de um conjunto, permitindo repetições.
+- Para calcular o arranjo com repetição, utilizamos a fórmula:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/f0fdbcf0-e303-4466-9e86-82b4b6b66078/image.png)
+
+- n = número de elementos do conjunto.
+- p = quantidade de elementos por agrupamento.
+
+Vejamos, a seguir, como aplicar a fórmula para encontrar a quantidade de arranjos com repetição que podemos formar 
+em determinadas situações.
+
+Em um banco, a senha do cartão é composta por quatro números, que podem ser repetidos ou não, então, qual é a 
+quantidade de senhas possíveis para esse cartão?
+
+Resolução:
+
+Sabemos que a senha é uma sequência de quatro algarismos e que a ordem é importante, logo, esse problema se trata
+ de um arranjo com repetição.
+
+Existem dez algarismos de zero até nove, então, n = 10, e serão escolhidos quatros deles, então, p = 4. Dessa forma, temos que:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/336511f8-d984-46af-ae96-a74484076486/4e6d33b0-7f5b-44fd-89c9-3383fed3cc6d/image.png)
+
+Então, há dez mil senhas distintas possíveis.
+
+# **Diferença entre arranjos simples e arranjos com repetição**
+
+A diferença principal entre um “arranjo simples” e um “arranjo com repetição” está na permissão para a repetição 
+de elementos no processo de organização ou seleção de elementos a partir de um conjunto. Aqui está a distinção entre os dois:
+
+## Arranjos simples:
+
+- Em um arranjo simples, cada elemento do conjunto só pode ser escolhido uma vez em um único arranjo.
+- A ordem dos elementos no arranjo é importante, o que significa que a ordem em que os elementos são organizados é considerada na contagem.
+- Um elemento escolhido não pode ser escolhido novamente para a mesma posição no arranjo.
+- Por exemplo, ao organizar as letras A, B e C em um arranjo simples de três elementos, as permutações seriam 
+ABC, ACB, BAC, BCA, CAB e CBA. Não há repetição dos elementos.
+
+## Arranjos com repetição:
+
+- A ordem dos elementos no arranjo ainda é importante, mas a repetição é permitida, o que significa que um 
+elemento pode aparecer várias vezes no mesmo arranjo.
+- Por exemplo, ao organizar as letras A, B e C em um arranjo com repetição de três elementos, os arranjos 
+incluiriam AAA, AAB, AAC, ABA, ABB, ACC, BAA, BAB, BAC, BBA, BBB, BCA, CAA, CAB, CAC, CBA, CBB e CCA. Neste caso,
+ os elementos podem se repetir.Resumindo, a diferença fundamental entre um arranjo simples e um arranjo com repetição
+  está na capacidade de repetir elementos no arranjo. Em arranjos simples, cada elemento é escolhido uma única vez, 
+  enquanto em arranjos com repetição, os elementos podem ser escolhidos e repetidos em diferentes posições do arranjo.
+   A decisão de usar um ou outro depende do contexto do problema específico que você está resolvendo e das restrições envolvidas.

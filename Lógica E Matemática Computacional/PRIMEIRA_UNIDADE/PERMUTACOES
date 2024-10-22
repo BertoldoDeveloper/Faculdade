@@ -1,0 +1,96 @@
+# **Permutações**
+
+Permutações matemáticas são arranjos de elementos de um conjunto em uma ordem específica. 
+Em outras palavras, as permutações representam todas as diferentes maneiras de organizar os elementos do conjunto,
+ em que a ordem dos elementos é fundamental.
+
+O número de permutações de um conjunto de n elementos é denotado como "P(n)" ou "n!" (lê-se "n fatorial") e é calculado
+ como o produto de todos os números inteiros positivos de 1 a n.
+
+A fórmula geral para calcular o número de permutações de n elementos é:
+
+P(n) = n!
+
+Por exemplo, se você tem um conjunto de três elementos {A, B, C}, o número de permutações possíveis é 3! (3 fatoriais),
+ que é igual a 3 x 2 x 1 = 6 permutações:
+
+ABC
+
+ACB
+
+BAC
+
+BCA
+
+CAB
+
+CBA
+
+As permutações são amplamente usadas em problemas de contagem, estatísticas, combinatorial, teoria das probabilidades e 
+diversas outras aplicações em matemática, ciência, engenharia e outras áreas. Elas são uma ferramenta fundamental para 
+lidar com situações em que a ordem dos elementos é crítica.
+
+# **Exemplos de permutações**
+
+## **Exemplo 01**
+
+Quantos anagramas podem ser formados com as letras da palavra BRASIL?
+
+Como anagrama é permutação, então, aplicando a fórmula da permutação:
+
+### **Solução**:
+
+Pn = n! P6 = 6! P6 = 6 · 5 · 4 · 3 · 2 · 1 = 720
+
+## **Exemplo 02**
+
+Quantas permutações distintas podem ser formadas usando todas as letras da palavra "MATE"?
+
+### **Solução**:
+
+Uma permutação é uma organização ordenada dos elementos. Neste caso, queremos organizar as letras da palavra "MATE".
+
+A palavra "MATE" contém quatro letras, então temos n = 4 elementos para organizar. Vamos calcular o número de permutações:
+
+Começamos com quatro opções para a primeira posição. Podemos escolher qualquer uma das quatro letras: M, A, T ou E.
+
+Para a segunda posição, agora restam três letras, pois já usamos uma na primeira posição. Portanto, temos três opções.
+
+Na terceira posição, restam duas letras, pois já usamos duas nas posições anteriores. Temos duas opções.
+
+Finalmente, na quarta posição, a última letra é automaticamente definida, já que as outras três letras foram usadas nas posições anteriores.
+
+Agora, podemos multiplicar o número de opções em cada posição para obter o número total de permutações:
+
+4 (opções para a primeira posição) * 3 (opções para a segunda posição) * 2 (opções para a terceira posição) 
+* 1 (opção para a quarta posição) = 24 permutações.
+
+Portanto, existem 24 permutações distintas que podem ser formadas usando todas as letras da palavra "MATE." 
+Isso significa que há 24 maneiras diferentes de organizar essas quatro letras em uma ordem específica.
+
+## **Exemplo 03**
+
+Suponha que você tenha cinco livros diferentes (A, B, C, D, E) em uma prateleira e deseja organizá-los em uma ordem específica.
+ Quantas maneiras diferentes você pode realizar essa organização?
+
+### **Solução**:
+
+Este é um problema de permutação, no qual queremos calcular o número de maneiras de organizar os cinco livros em uma ordem específica.
+
+Começamos com cinco opções para a primeira posição na prateleira. Podemos escolher qualquer um dos cinco livros.
+
+Para a segunda posição, restam quatro livros, pois já usamos um na primeira posição. Portanto, temos quatro opções.
+
+Na terceira posição, restam três livros, já que usamos dois nas posições anteriores. Temos três opções.
+
+Para a quarta posição, restam dois livros, pois já usamos três nas posições anteriores. Temos dois opções.
+
+Finalmente, para a quinta posição, o último livro é automaticamente definido, já que os outros quatro foram usados nas posições anteriores.
+
+Agora, multiplicamos o número de opções em cada posição para obter o número total de permutações:
+
+5 (opções para a primeira posição) * 4 (opções para a segunda posição) * 3 (opções para a terceira posição) 
+* 2 (opções para a quarta posição) * 1 (opção para a quinta posição) = 120 maneiras diferentes.
+
+Portanto, existem 120 maneiras diferentes de organizar os cinco livros em uma ordem específica na prateleira. 
+Cada permutação representa uma configuração única dos livros.
